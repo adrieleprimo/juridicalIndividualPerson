@@ -4,7 +4,7 @@ public class PessoaJuridica extends Pessoa{
 	private Integer funcionarios;
 	
 	public PessoaJuridica() {
-		
+		super();
 	}
 
 	public PessoaJuridica(String name, Double renda, Integer funcionarios) {
