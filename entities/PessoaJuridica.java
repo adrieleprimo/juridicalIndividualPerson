@@ -22,7 +22,7 @@ public class PessoaJuridica extends Pessoa{
 
 	@Override
 	public Double rendaAnual() {
-		if(funcionarios >= 10) {
+		if(funcionarios > 10) {
 			return renda*0.14;
 		}
 		else {
