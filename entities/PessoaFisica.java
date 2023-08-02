@@ -22,7 +22,7 @@ public class PessoaFisica extends Pessoa {
 
 	@Override
 	public final Double rendaAnual() {
-		if(renda <= 2000.00) {
+		if(renda <= 20000.00) {
 			return (renda*0.15)-(gastosSaude*0.15);
 		}
 		else {
